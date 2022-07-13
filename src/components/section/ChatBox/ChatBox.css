@@ -1,0 +1,52 @@
+.ChatBox {
+    position: fixed;
+    top: 85%;
+    left: 92%;
+}
+
+.ChatBox img {
+    width: 100px;
+    /* border: 2px solid salmon; */
+}
+
+.ChatBox_info {
+    /* color: white !important; */
+    /* border: 5px solid salmon; */
+    background-color: red;
+}
+.ChatBox_info small{
+    color: white;
+    margin-top: 10px;
+}
+.ChatBox_info {
+    right: 90px;
+     position: absolute;
+    bottom: 25px;
+    width: 150px;
+    height: fit-content;
+    animation: chatsupport 2s ease ;
+    display: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+    .ChatBox:hover img {
+        cursor: pointer;
+    }
+
+    .ChatBox:hover .ChatBox_info{
+        display: inline;
+    }
+
+@keyframes chatsupport{
+     0% {
+     right: 120px;
+    } 
+   
+    100%{
+        right: 90px;}
+
+       
+    }
+ 

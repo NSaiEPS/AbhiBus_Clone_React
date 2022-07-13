@@ -1,0 +1,37 @@
+.SRTC_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.SRTC_bottom_parent {
+    width: 150px;
+    height: 150px;
+    border: 0.5px solid white;
+
+}
+
+.SRTC_bottom_parent:hover {
+    border: 1px solid lightgray;
+    background-color: white;
+    box-shadow: 0px 0px 1.5px 1.5px lightgray;
+    border-radius: 5px;
+    
+    
+}
+
+.SRTC_bottom_parent img {
+    width: 110px;
+    padding-left: 18px;
+    padding-top: 5px;
+    /* align-self: center; */
+
+}
+
+.SRTC_bottom_parent span {
+    /* justify-self: center; */
+    padding-left: 38px;
+}

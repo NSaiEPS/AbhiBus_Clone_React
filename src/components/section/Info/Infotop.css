@@ -1,0 +1,36 @@
+.Infotop {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50PX;
+}
+
+
+
+
+.infotop_total {
+    width: 220px;
+    /* border: 1px solid salmon; */
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
+    /* padding-top: 10px; */
+    /* padding-left: 10px; */
+}
+
+
+
+
+.imgmap {
+    width: 120px;
+    height: 90px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding-top: 13px;
+
+}
+
+span:nth-child(3){
+    color: rgb(163, 143, 143);
+}

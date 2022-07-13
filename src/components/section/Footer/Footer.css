@@ -1,0 +1,122 @@
+.Footer {
+    width: 100%;
+    /* background-color: ; */
+}
+
+.FooterTop {
+    background-color: #E5E5E5;
+}
+
+.FooterBwn {
+    background-color: #C6C6C6;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.FooterBwn_inside {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.FooterInfo_div {
+    display: flex;
+    /* text-decoration: none; */
+}
+
+.Footerbtm {
+    background-color: #4F4F4F;
+    color: WHITE;
+    min-height: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+.FooterInfo_ul li {
+    /* text-decoration: none; */
+    list-style: none;
+}
+.FooterTop_top button {
+    background-color: #E5E5E5;
+    height: 55px;
+    
+}
+
+.FooterTop_top button:hover {
+    background-color: white;
+}
+
+.FooterTop_inside {
+    /* width: 80%; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid rgb(126, 115, 115);
+    box-sizing: border-box;
+
+}
+.FooterTop_top {
+    width: 80%;
+    padding-top: 10px;
+    display: flex;
+justify-content: space-between;
+}
+
+.FooterTop_top button {
+font-size: large;
+padding: 10px;
+/* font: 16px ; */
+/* font-family:'Open Sans', sans-serif; */
+
+}
+
+
+
+.FooterTop_btm {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Footerbtm a {
+ color: white;
+ margin-left: 15px;
+}
+
+
+
+.FooterTop_btm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-left: auto; */
+}
+
+a {
+    text-decoration: none;
+    color:  #4F4F4F;
+    /* width: 25%; */
+}
+
+/* .FooterTop_btm_tobus { */
+    /* width: 100%; */
+/* } */
+
+.footeinfo_li {
+    text-decoration: none;
+}
+
+.Footerbtm_inside {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FooterTop_top button:nth-child(1){
+    /* color: red !important; */
+    border-bottom: 3px solid red !important;
+    box-sizing: border-box;
+}

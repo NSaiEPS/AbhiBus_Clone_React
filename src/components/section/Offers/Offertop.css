@@ -1,0 +1,36 @@
+.offertop {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    font-size: x-large;
+    padding-top: 28px !important;
+}
+
+.offertop_btns button{
+    border: none;
+    background-color: white;
+    font-size:medium;
+    padding-right: 12px;
+    height: 35px;
+    /* background-color: rebeccapurple; */
+}
+
+.offertop_btns button:hover{
+
+background-color: rgb(233, 224, 224);
+color: red;
+ width: 100px;
+
+}
+
+.offertop_busofer {
+    border-bottom: 2px solid red !important;
+}
+.offertop_busofer {
+color:  black !important;
+}
+
+.offertop_more:hover {
+    width: fit-content !important;
+    
+}

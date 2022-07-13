@@ -1,0 +1,22 @@
+.offerbottom {
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 15px; */
+    /* margin-bottom: 10px; */
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.offerbottom img {
+    height: 175px;
+    width: 32%;
+    /* padding-bottom: 15px; */
+    border: 0.1px solid lightgray;
+    /* margin-bottom: 10px; */
+}
+
+img {
+    /* padding-bottom: -5px; */
+    margin-bottom: 10px;
+}

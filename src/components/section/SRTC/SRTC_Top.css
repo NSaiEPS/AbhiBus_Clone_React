@@ -1,0 +1,13 @@
+.SRTC_Top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: x-large
+    ;
+    padding-top: 25px !important;
+}
+
+button {
+    background-color: white;
+    border: none;
+}

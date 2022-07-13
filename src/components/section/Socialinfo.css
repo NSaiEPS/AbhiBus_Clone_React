@@ -1,0 +1,17 @@
+/* .SocialInfo { */
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* display: flex; */
+    /* justify-self: center; */
+    
+    /* margin-left: auto; */
+/* } */
+
+.SocialInfo p {
+    /* marginmargin-left: auto; */
+    /* -right: auto; */
+    /* display: flex; */
+  padding-left: 45%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,38 @@
+.header1 {
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-left: 135px;
+    padding-right: 140px;
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
+    font-size: 14px;
+    height: 54.5px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.header1_left_img {
+    height: 54px;
+}
+
+.header1_right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1_right button {
+    border: none;
+    background-color: #efefef;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    color: #5d5d5d;
+    font-size: 15.5px;
+    margin-left: 35px;
+    
+}
+button:hover {
+    cursor: pointer;
+}
