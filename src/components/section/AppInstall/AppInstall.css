@@ -22,7 +22,7 @@
 }
 
 .AppInstall_right2 {
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -51,4 +51,40 @@
     display: flex;
     flex-direction: column;
     padding-right: 90px;
+}
+
+.AppInstall_inside img{
+    width: 100%;
+}
+
+
+@media (max-width:1000px){
+
+.AppInstall_first {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.AppInstall_inside img{
+  width: 50%;
+
+}
+}
+
+@media (max-width:550px){
+.AppInstall_right3{
+    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+} 
+
+.AppInstall_inside img{
+
+width: 100%;
+
+}
+.AppInstall_rightreview img {
+    width: 100% ;
+}
 }

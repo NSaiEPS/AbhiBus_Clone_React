@@ -19,37 +19,39 @@ function Header2() {
         <button >Hotels</button>
         <button>Rentals</button>
       </div>
+
+
       <div className='header2_third'>
         <form className='header2_third_from'>
           <div className='form_inside'>
           <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-1.png'/>
           
           
-          <input  type='text' placeholder='Leaving from' className='form_input' />
+          <input required type='text' placeholder='Leaving from' className='form_input' />
          
          </div>
 
          <div className='form_inside'>
-          <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-1.png'/>
+          <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-2.png'/>
           
           
-          <input  type='text' placeholder='Leaving from' className='form_input' />
+          <input resource='' type='text' placeholder='Going to' className='form_input' />
          
          </div>
 
          <div className='form_inside'>
-          <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-1.png'/>
+          <img className='form_input_img' src='https://static.abhibus.com/assets/img/date.png'/>
           
           
-          <input  type='text' placeholder='Leaving from' className='form_input' />
+          <input  required type='date' placeholder='Date of journey' className='form_input' />
          
          </div>
 
          <div className='form_inside'>
-          <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-1.png'/>
+          <img className='form_input_img' src='https://static.abhibus.com/assets/img/date.png'/>
           
           
-          <input  type='text' placeholder='Leaving from' className='form_input' />
+          <input  type='date' placeholder='Date of Return (Optional)' className='form_input' />
          
          </div>
 
@@ -61,7 +63,7 @@ function Header2() {
           <input type='date' placeholder='Date of journey' />
           <input type='date' placeholder='Date of Return (Optional)'/>
          */}
-          <button>Search</button> 
+          <button className='form_btn'>Search</button> 
         </form>
       </div>
 

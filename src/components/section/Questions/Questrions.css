@@ -11,8 +11,20 @@
     
     
 }
+.Questions b {
+    color: rgb(37, 36, 36);
+}
 
+.Questions h3 {
+    font-size:  28px;
+    color: rgb(48, 44, 44);
+}
 .questions_inside {
     font-size:14px;
     /* line-height: 1; */
+}
+
+
+.questions_inside p {
+    color:  #212529;
 }

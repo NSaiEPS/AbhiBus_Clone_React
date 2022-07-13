@@ -25,3 +25,37 @@
 .covid_bottom {
     display: flex;
 }
+
+.covid_bottom_inside {
+    width: 50%;
+}
+
+
+.covid_bottom_inside img{ 
+    width: 100%;
+}
+
+@media (max-width:750px){
+    .covid_bottom {
+        flex-direction: column;
+    }
+
+    .covid_bottom_inside {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:750px){
+
+    .covid_bottom_inside {
+    width: 90%;
+    }
+
+    .covid_bottom_img img{
+        width: 100%;
+    }
+
+
+}

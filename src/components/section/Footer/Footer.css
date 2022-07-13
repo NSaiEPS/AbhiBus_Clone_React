@@ -15,14 +15,16 @@
 .FooterBwn_inside {
     display: flex;
     width: 80%;
+    /* max-width: 80%; */
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
+/* .FooterInfo_div */
 .FooterInfo_div {
     display: flex;
     /* text-decoration: none; */
+    /* background-color: red; */
 }
 
 .Footerbtm {
@@ -33,9 +35,15 @@
     box-sizing: border-box;
     /* display: flex; */
 }
+/* .FooterInfo_div {
+    width: 25px;
+} */
+
 .FooterInfo_ul li {
     /* text-decoration: none; */
     list-style: none;
+    /* width: 10%; */
+    /* background-color: red; */
 }
 .FooterTop_top button {
     background-color: #E5E5E5;
@@ -61,6 +69,7 @@
     padding-top: 10px;
     display: flex;
 justify-content: space-between;
+  /* max-width: 80%; */
 }
 
 .FooterTop_top button {
@@ -89,7 +98,7 @@ padding: 10px;
 .FooterTop_btm {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     /* margin-left: auto; */
 }
 
@@ -107,16 +116,66 @@ a {
     text-decoration: none;
 }
 
+.FooterInfo_div {
+    /* width: 75%; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
 .Footerbtm_inside {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    /* background-color: red; */
 }
 
 .FooterTop_top button:nth-child(1){
     /* color: red !important; */
     border-bottom: 3px solid red !important;
     box-sizing: border-box;
+}
+
+
+@media   (max-width:1120px){
+
+
+.FooterBwn_inside {
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
+@media (max-width:750px){
+.FooterTop_top {
+    width: 100%;
+
+
+}
+    
+}
+
+@media  (max-width:880px){
+
+.Footerbtm_inside {
+    flex-direction: column;
+}
+
+
+}
+
+@media (max-width:500px){
+.FooterTop_top {
+
+     flex-wrap: wrap;
+
+}
+    
+
 }

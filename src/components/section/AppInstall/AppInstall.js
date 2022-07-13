@@ -5,7 +5,7 @@ export const AppInstall = () => {
   return (
     <div className='AppInstall'>
   <div className='AppInstall_first'>
-        <div>
+        <div className='AppInstall_inside'>
             <img src='https://static.abhibus.com/img/homepage/home-3.png' alt='appInstall'/>
         </div>
         <div className='AppInstall_right'>

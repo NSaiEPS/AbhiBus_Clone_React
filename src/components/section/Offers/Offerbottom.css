@@ -6,6 +6,7 @@
     padding-bottom: 15px;
     padding-left: 13px;
     padding-right: 13px;
+    /* flex-wrap: wrap; */
 }
 
 .offerbottom img {
@@ -20,3 +21,40 @@ img {
     /* padding-bottom: -5px; */
     margin-bottom: 10px;
 }
+
+@media (max-width:850px){
+
+.offerbottom img {
+    width: 45%;
+}
+
+.offerbottom {
+flex-wrap: wrap;
+/* height: fit-content; */
+
+}
+}
+
+@media (max-width:650px){
+
+.offerbottom img {
+  width: 75%;
+}
+    
+}
+
+@media (max-width:450px){
+
+    .offerbottom img {
+      width: 85%;
+    }
+        
+    }
+
+    @media (max-width:350px){
+
+        .offerbottom img {
+          width: 95%;
+        }
+            
+        }

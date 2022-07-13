@@ -7,6 +7,7 @@
 }
 
 
+
 .SRTC_bottom_parent {
     width: 150px;
     height: 150px;
@@ -25,13 +26,29 @@
 
 .SRTC_bottom_parent img {
     width: 110px;
-    padding-left: 18px;
-    padding-top: 5px;
+    /* padding-left: 18px; */
+    padding-left: 13%;
+    /* padding-top: 5px; */
+    padding-top: 5%;
     /* align-self: center; */
 
 }
 
 .SRTC_bottom_parent span {
     /* justify-self: center; */
-    padding-left: 38px;
+    padding-left: 28%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 100%; */
+}
+
+
+@media (max-width:1100px){
+.SRTC_bottom {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 }

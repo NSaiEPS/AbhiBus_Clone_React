@@ -1,4 +1,5 @@
 .SRTC {
+    /* min-height: fit-content; */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -9,4 +10,10 @@
     box-shadow: 0px 0px 1px 1px lightgray;
 
     
+}
+
+@media (max-width:1100px){
+    .SRTC{
+        height: fit-content !important;
+    }
 }

@@ -8,7 +8,7 @@ export const Covid = () => {
         <h2 className='covid_top'>COVID-19 Related Travel Advisory</h2>
    
       <div className='covid_bottom'>
-        <div>
+        <div className='covid_bottom_inside'>
             <p>AbhiBus recommends that all passengers follow Covid Safety Guidelines. Maintaining strict safety protocols can ensure that the virus spread is in control. Travellers must make sure to wear double masks, use hand sanitisers and keep their distance from others.</p>
             <p>Look out for our bus services while booking your tickets. These bus services are handpicked and they follow all the safety protocols - regular bus fumigation, availability of hand sanitisers, passenger temperature screening before onboarding, staff that is well educated about the safety protocols.
 
@@ -30,7 +30,7 @@ export const Covid = () => {
             <img src='https://static.abhibus.com/img/homepage/covid-precausion.png' alt='saftypng'/>
         </div>
 
-        <div>
+        <div className='covid_bottom_img'>
             <img src='https://static.abhibus.com/img/homepage/home-2.png' alt='home[age3' />
         </div>
       </div>

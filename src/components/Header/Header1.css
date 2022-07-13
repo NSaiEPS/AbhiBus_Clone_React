@@ -30,9 +30,26 @@
     font-family: 'Open Sans', sans-serif;
     color: #5d5d5d;
     font-size: 15.5px;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     
 }
 button:hover {
     cursor: pointer;
+}
+
+@media (max-width:675px){
+
+.header1 {
+ flex-direction: column;
+  height: fit-content;
+  /* max-width: 100%; */
+  width: 100%;
+  padding: 0px;
+}
+.header1_right{
+    /* width: 80%; */
+    /* margin-left: -55px ; */
+    justify-content: space-around;
+}
+
 }

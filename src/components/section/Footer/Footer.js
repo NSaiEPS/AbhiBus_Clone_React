@@ -118,14 +118,16 @@ const Footer = () => {
                 </ul>)
             })}
         </div>
-        <div><img src='https://static.abhibus.com/img/bus-booking/pci-dss-logo.png' alt='PCi.img'/></div>
+        <div>
+            <img src='https://static.abhibus.com/img/bus-booking/pci-dss-logo.png' alt='PCi.img'/>
+            </div>
     </div></div>
     <div className='Footerbtm'>
 
         <div className='Footerbtm_inside'>
         <div> 
             {moreapps.map((app)=>{return(
-            <a key={Math.random()} href={`www.${app}.com`}>{app}</a>
+            <a key={Math.random()} href={`www.${app}.com`} target='blank'>{app}</a>
                         
             )})}
         </div>

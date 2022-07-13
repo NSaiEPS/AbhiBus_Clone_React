@@ -50,3 +50,35 @@
        
     }
  
+
+    @media (max-width:1000px){
+        .ChatBox {
+            left: 90%;
+        }
+    }
+
+    @media (max-width:750px){
+        .ChatBox {
+            left: 85%;
+        }
+    }
+
+
+    @media (max-width:500px){
+        .ChatBox {
+            left: 80%;
+        }
+    }
+
+
+    @media (max-width:400px){
+        .ChatBox {
+            left: 75%;
+        }
+    }
+
+    @media (max-width:400px){
+        .ChatBox {
+            left: 65%;
+        }
+    }

@@ -34,3 +34,12 @@
 span:nth-child(3){
     color: rgb(163, 143, 143);
 }
+
+
+@media (max-width:900px){
+.Infotop {
+   display: flex;
+   flex-wrap: wrap;
+
+}
+}
