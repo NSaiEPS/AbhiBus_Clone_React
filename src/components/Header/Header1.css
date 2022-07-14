@@ -55,3 +55,7 @@ button:hover {
     padding-left: 25px;
 }
 }
+
+.header1_small {
+    display: none;
+}

@@ -2,6 +2,13 @@ import React from 'react'
 import './Header1.css'
 
 function Header1() {
+
+  // if(window.innerWidth <=500){
+  //   alert('width lessthan 500')
+  // }
+console.log(window.innerWidth)
+
+
   return (
     <div className='header1'>
         
@@ -14,6 +21,15 @@ function Header1() {
             <button>My Bookings</button>
             <button>Login / Register</button>
         </div>
+
+
+        <div className='header1_small'>
+        <button>
+        _<br/>
+        _<br/>
+          _<br/>
+        </button>
+          </div>
         
         </div>
   )

@@ -26,7 +26,6 @@ function Header2() {
           <div className='form_inside'>
           <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-1.png'/>
           
-          
           <input required type='text' placeholder='Leaving from' className='form_input' />
          
          </div>
