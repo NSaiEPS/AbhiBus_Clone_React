@@ -1,16 +1,60 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header1.css'
 
 function Header1() {
 
-  // if(window.innerWidth <=500){
-  //   alert('width lessthan 500')
-  // }
-console.log(window.innerWidth)
+  let [display,setDisplay]=useState(false)
+  let dis;
+
+  let handlebar=()=>{
+    setDisplay(!display)
+
+  }
+
+  console.log(display)
+
+  if (window.innerWidth>1000){
+    dis=true;
+    // alert('width more than 10000')
+    // break;
+  }
+
+  // if (dis){}
+
+//   let [small,setSmall]=useState(false)
+
+//   if(window.innerWidth <=500){
+//     // alert('less than 500')
+//     setSmall(true)
+//     // small=true;
+//     console.log(small)
+//   }
 
 
-  return (
-    <div className='header1'>
+//   if(window.innerWidth >500){
+//     setSmall(false)
+//     // small=false;
+//     console.log(small)
+
+//   }
+// console.log(window.innerWidth)
+
+
+
+// if( window.screenY===40)
+
+// if(window.scrollY>160)
+// {
+//   alert('sceolled')
+// }
+
+if (window.onclick){
+  alert('he clicked!')
+}
+
+return (
+    <div className={display?'header1_dis' : 'header1 '}>
+    {/* <div className={display ? 'header1_dis' :'header1'}> */}
         
         <div className='header1_left'>
             <img className='header1_left_img' src='https://static.abhibus.com/img/abhilogos/logo1.png' alt='abhibus'/>
@@ -23,8 +67,16 @@ console.log(window.innerWidth)
         </div>
 
 
-        <div className='header1_small'>
-        <button>
+        {display ?  <div className='header_bar'>
+            <button>Offers</button>
+            <button>Get Free Rides</button>
+            <button>My Bookings</button>
+            <button>Login / Register</button>
+        </div> : null}
+
+
+        <div className='header1_small'   >
+        <button onClick={handlebar}>
         _<br/>
         _<br/>
           _<br/>

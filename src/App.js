@@ -4,6 +4,7 @@ import Header1 from './components/Header/Header1';
 // import Header2 from './components/Header/Header2';
 import Body from './components/section/Body';
 import '../src/components/Header/Header1.css'
+import { useState } from 'react';
 
 function App() {
 
@@ -32,9 +33,34 @@ function App() {
   //  }
   //  console.log(va)
 
+  let [scroll, setscrool]=useState(false)
+
+  let val=160;
+  let srcollv=false;
+
+if(window.scrollY >=160 && window.screenY<163){
+  setscrool(true)
+
+  srcollv=true;
+  // alert('scroll!')x
+}
+
+if(srcollv) {
+
+  setscrool(true)
+
+}
+
+
+console.log(scroll)
+console.log(scroll)
+
   return (
     <div className="app">
-      <Header1/>
+      
+      
+      {scroll ? <Header1/>:null}
+      {/* <Header1/> */}
      <Header/>
      <Body/>
 

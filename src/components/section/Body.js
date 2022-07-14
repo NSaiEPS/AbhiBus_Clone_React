@@ -11,6 +11,7 @@ import Footer from './Footer/Footer'
 import ChatBox from './ChatBox/ChatBox'
 
 function Body() {
+  
   return (
     <div>
         <Offers/>
