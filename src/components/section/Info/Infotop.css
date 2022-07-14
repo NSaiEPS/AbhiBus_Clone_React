@@ -40,6 +40,11 @@ span:nth-child(3){
 .Infotop {
    display: flex;
    flex-wrap: wrap;
+   padding-bottom: 25px;
 
+}
+
+.infotop_total {
+    padding-bottom: 10px;
 }
 }

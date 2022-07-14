@@ -179,3 +179,23 @@ a {
     
 
 }
+
+
+@media (max-width:450px){
+    .FooterTop_top {
+    
+         /* flex-wrap: wrap; */
+         flex-direction: column;
+         width: 65%;
+         margin-left: auto;
+         margin-right: auto;
+    
+    }
+
+    .FooterTop_top button{
+      /* background-color: red;   */
+      width: fit-content;
+        
+        
+    
+    }}

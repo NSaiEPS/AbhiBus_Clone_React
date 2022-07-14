@@ -51,5 +51,7 @@ button:hover {
     /* margin-left: -55px ; */
     justify-content: space-around;
 }
-
+.header1_left img {
+    padding-left: 25px;
+}
 }

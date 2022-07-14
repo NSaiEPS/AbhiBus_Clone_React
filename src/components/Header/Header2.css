@@ -178,6 +178,9 @@
         .header2 {
             height: 550px;
         }
+        .header2_two button {
+            margin-top: 15px;
+        }
         
         }
 
@@ -204,3 +207,10 @@
         
         margin-left: 20%;
 }}
+
+          
+/* .form_inside input {
+    width: 75%;
+} */
+
+/* @media (max-width) */
