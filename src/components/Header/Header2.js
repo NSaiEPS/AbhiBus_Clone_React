@@ -109,7 +109,7 @@ let handle_nofus_going=()=>{
           <input onClick={handlefocus_going} onBlur={handle_nofus_going} type='text'  className='form_input' />
           {/* <span className='form_inside_text_focudg'> Going to</span> */}
           {/* <span className={ focus ? `form_inside_text_focus`: `form_inside_text`}>Going to</span> */}
-          <span className={ focus.inpG ? 'form_inside_text_focudg':'form_inside_text'}> Going to</span>
+          <span className={ focus.inpG ? 'form_inside_text_focudg':'form_inside_text  form_inside_text2'}> Going to</span>
          
          </div>
 
