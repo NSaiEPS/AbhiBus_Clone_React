@@ -35,35 +35,53 @@ function App() {
 
   let [scroll, setscrool]=useState(false)
 
-  let val=160;
-  let srcollv=false;
+//   let val=160;
+//   let srcollv=false;
 
-if(window.scrollY >=160 && window.screenY<163){
-  setscrool(true)
+// if(window.scrollY >=160 && window.screenY<163){
+//   setscrool(true)
 
-  srcollv=true;
-  // alert('scroll!')x
-}
+//   srcollv=true;
+//   // alert('scroll!')x
+// }
 
-if(srcollv) {
+// if(srcollv) {
 
-  setscrool(true)
+//   setscrool(true)
 
-}
+// }
 
 
+// // console.log(scroll)
 // console.log(scroll)
-console.log(scroll)
 
 
- useEffect(()=>{
-    if(window.screenY===500){
-      setscrool(true)
-    }
- },window.scrollbars)
 
 
-  return (
+//  useEffect(()=>{
+    
+
+
+
+//     if(window.screenY===500){
+//       setscrool(true)
+//     }
+//  },window.scrollbars)
+
+useEffect(()=>{
+  window.addEventListener('scroll',scling)
+
+
+})
+  
+
+function scling(){
+  if(window.scrollY>500){
+    setscrool(true)
+  }
+}
+
+return (
     <div className="app">
       
       

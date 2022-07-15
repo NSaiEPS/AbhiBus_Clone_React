@@ -5,7 +5,7 @@ import Header2 from './Header2'
 function Header() {
   return (
     <div>
-        {/* <Header1/> */}
+        <Header1/>
         <Header2/>
     </div>
   )
