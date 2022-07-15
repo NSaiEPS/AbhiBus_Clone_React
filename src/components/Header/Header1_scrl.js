@@ -59,7 +59,11 @@ return (
         <div className='header1_left'>
             <img className='header1_left_img' src='https://static.abhibus.com/img/abhilogos/logo1.png' alt='abhibus'/>
         </div>
-        <div className='header1_right'>
+        <div className='header1_right_scl'>
+            <button>Bus</button>
+            <button>Trains</button>
+            <button>Hotals</button>
+            <button>Rentals</button>
             <button>Offers</button>
             <button>Get Free Rides</button>
             <button>My Bookings</button>
@@ -67,7 +71,11 @@ return (
         </div>
 
 
-        {display ?  <div className='header_bar'>
+        {display ?  <div className='header_bar_scl'>
+            <button>Bus</button>
+            <button>Trains</button>
+            <button>Hotel</button>
+            <button>Rentals</button>
             <button>Offers</button>
             <button>Get Free Rides</button>
             <button>My Bookings</button>
@@ -76,11 +84,11 @@ return (
 
 
         <div className='header1_small'   >
-        <button onClick={handlebar}>
-        _<br/>
-        _<br/>
-          _<br/>
-        </button>
+        <div className='header_small_inside' onClick={handlebar}>
+        <button>__</button>
+        <button>__</button>
+        <button>__</button>
+        </div>
           </div>
         
         </div>

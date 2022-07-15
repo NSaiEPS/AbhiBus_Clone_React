@@ -20,12 +20,13 @@
     height: 54px;
 }
 
-.header1_right {
+.header1_right_scl {
     display: flex;
     justify-content: space-between;
+    /* margin-left: 5px; */
 }
 
-.header1_right button {
+.header1_right_scl button {
     border: none;
     background-color: #efefef;
     justify-content: space-between;
@@ -33,6 +34,7 @@
     color: #5d5d5d;
     font-size: 15.5px;
     /* margin-left: 35px; */
+    margin-left: 15px;
     
 }
 button:hover {
@@ -50,7 +52,7 @@ button:hover {
   width: 100%;
   padding: 0px;
 }
-.header1_right{
+.header1_right_scl{
     /* width: 80%; */
     /* margin-left: -55px ; */
     justify-content: space-around;
@@ -88,7 +90,7 @@ button:hover {
     .header1_small {
         display: block;
     }
-.header1_right {
+.header1_right_scl {
     display: none;
 }
 
@@ -102,7 +104,7 @@ button:hover {
         /* width: 500px; */
     }
 
-    .header_bar {
+    .header_bar_scl {
         display: none;
     }
 
@@ -111,7 +113,7 @@ display: none;
 
 }
 .header1_dis{
-height: fit-content !important;
+height: fit-content ;
 }
 
 
@@ -119,7 +121,7 @@ height: fit-content !important;
 }
 
 @media (max-width:1000px){
-    .header_bar {
+    .header_bar_scl {
         display: flex;
         flex-direction: column;
         width: 250px;
@@ -132,7 +134,7 @@ height: fit-content !important;
     }
     .header1_dis{
 
-        height: 150px;
+        height: 200px !important;
         
             background-color: #efefef;
             display: flex;
@@ -154,7 +156,7 @@ height: fit-content !important;
 }
 
 
-.header_bar button {
+.header_bar_scl button {
     background-color: #efefef;
     width: 80%;
     margin-left: auto;
@@ -204,7 +206,7 @@ height: fit-content !important;
 
 
 @media (max-width:850px){
-    .header_bar {
+    .header_bar_scl {
         
      right: 45%;
     }
@@ -226,7 +228,7 @@ height: fit-content !important;
 } */
 
 @media (max-width:350px){
-    .header_bar {
+    .header_bar_scl {
         
      right: 50%;
 
@@ -235,4 +237,32 @@ height: fit-content !important;
 .header1_dis{
   height: 180px;
 }
+}
+
+.header1_right_scl button:nth-child(1){
+    background-color: #c60001;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    width: 45px;
+    align-self: center;
+}
+
+.header1_small button {
+    background-color: #efefef;
+    /* padding: none; */
+    /* height: 10px !important; */
+}
+
+.header_small_inside {
+    display: flex;
+    flex-direction: column;
+    /* height: 2px !important; */
+    /* align-items: center; */
+}
+
+.header_small_inside button{
+
+    margin-top: -0.9px;
+
 }
