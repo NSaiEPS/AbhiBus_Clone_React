@@ -4,7 +4,7 @@ import Header1 from './components/Header/Header1';
 // import Header2 from './components/Header/Header2';
 import Body from './components/section/Body';
 import '../src/components/Header/Header1.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
 
@@ -52,8 +52,16 @@ if(srcollv) {
 }
 
 
+// console.log(scroll)
 console.log(scroll)
-console.log(scroll)
+
+
+ useEffect(()=>{
+    if(window.screenY===500){
+      setscrool(true)
+    }
+ },window.scrollbars)
+
 
   return (
     <div className="app">
@@ -63,6 +71,7 @@ console.log(scroll)
       {/* <Header1/> */}
      <Header/>
      <Body/>
+     <input placeholder='Write some thing' className='placeholder_check'/>
 
     </div>
   );

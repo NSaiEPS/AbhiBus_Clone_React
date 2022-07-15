@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.placeholder_check {
+  /* background-color: red; */
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+input::placeholder{
+  font-size: 14px;
+  color: red;
+  top: 0px;
+  position: relative;
+}
+
+/* input:placeholder-shown{ */
+  /* display: none; */
+/* } */
+
+input:focus + input::placeholder{
+  font-size: 4px !important;
+  color: blue;
+  top: 0px;
+  position: relative;
+}
+
+ input::placeholder + input:focus{
+  font-size: 4px !important;
+  color: blue;
+  top: 0px;
+  position: relative;
+}

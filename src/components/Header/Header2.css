@@ -263,6 +263,7 @@
     bottom:  30px;
     left: 35px;
     /* font-size: 13px; */
+    pointer-events: none;
 }
 
 .form_inside_text_focus{
