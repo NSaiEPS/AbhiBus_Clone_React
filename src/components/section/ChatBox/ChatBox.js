@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './ChatBox.css'
 
 const ChatBox = () => {
+
+  let [topDis,setTopdis]=useState(false)
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+     
+      if(window.scrollY>250){
+        setTopdis(true)
+      }
+
+      else setTopdis(false)
+    })
+  })
 
   let handlescrollbtn=()=>{
 
@@ -23,8 +35,10 @@ const ChatBox = () => {
     
 
     </div>
-    <button className='scrollTop_btn' onClick={handlescrollbtn}> {`>>`} </button>
+   {
 
+     topDis? <button className='scrollTop_btn' onClick={handlescrollbtn}> {`>>`} </button>:null
+   }
     </>
   )
 

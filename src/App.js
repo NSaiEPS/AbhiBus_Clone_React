@@ -5,6 +5,7 @@ import Header1 from './components/Header/Header1';
 import Body from './components/section/Body';
 import '../src/components/Header/Header1.css'
 import { useEffect, useState } from 'react';
+import Header1_scrl from './components/Header/Header1_scrl';
 
 function App() {
 
@@ -33,7 +34,6 @@ function App() {
   //  }
   //  console.log(va)
 
-  let [scroll, setscrool]=useState(false)
 
 //   let val=160;
 //   let srcollv=false;
@@ -67,29 +67,33 @@ function App() {
 //       setscrool(true)
 //     }
 //  },window.scrollbars)
+let [scroll, setscrool]=useState(false)
 
-useEffect(()=>{
-  window.addEventListener('scroll',scling)
+// useEffect(()=>{
+//   window.addEventListener('scroll',scling)
 
 
-})
+// })
+
+window.addEventListener('scroll',scling)
   
 
 function scling(){
-  if(window.scrollY>500){
+  if(window.scrollY>230){
     setscrool(true)
   }
+  else setscrool(false)
 }
 
 return (
     <div className="app">
       
       
-      {scroll ? <Header1/>:null}
+      {scroll ? <Header1_scrl/>:null}
       {/* <Header1/> */}
      <Header/>
      <Body/>
-     <input placeholder='Write some thing' className='placeholder_check'/>
+     {/* <input placeholder='Write some thing' className='placeholder_check'/> */}
 
     </div>
   );
