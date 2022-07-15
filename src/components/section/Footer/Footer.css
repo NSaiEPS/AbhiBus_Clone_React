@@ -232,3 +232,40 @@ a {
        
        }
     }
+
+
+    /* .FooterTop_btm_ancr{
+color: red !important;
+    } */
+
+    /* .FooterTop_btm_tobus{
+  color: red;
+    } */
+    .busrouters ul {
+        list-style: none;
+      }
+
+      .busrouters  ul li::before {
+        content: "• ";
+        color: red;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+      } 
+/* ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+} */
+
+/* .busrouters ul li{
+    list-style-image: url("data:");
+} */
