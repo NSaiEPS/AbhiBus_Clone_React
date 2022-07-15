@@ -85,7 +85,7 @@
 } 
 .header2_third button {
     height: 61px;
-    width: 250px;
+    width: 270px;
     background-color: #c60001;
     border: none;
     color: white;
@@ -395,3 +395,8 @@ input:focus{
 input:focus{
     outline: none !important;
 }
+
+/* .form_input input::placeholder{ */
+    /* color: red; */
+    /* top: 5px; */
+    /* position: relative;} */

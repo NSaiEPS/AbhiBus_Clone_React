@@ -50,7 +50,25 @@ function Header2() {
 
   // let [focus,setFocus]
 
-  let [outfocus,setOutfocus]=useState(false)
+  let [onfocsImg,setfocusImg]=useState(false)
+  let [onfocsImg_2,setfocusImg_2]=useState(false)
+
+  let handleFocusImg=()=>{
+    setfocusImg(true)
+  }
+
+  let handleBlurImg=()=>{
+    setfocusImg(false)
+  }
+
+  let handleFocusImg_2=()=>{
+    setfocusImg_2(true)
+  }
+
+  let handleBlurImg_2=()=>{
+    setfocusImg_2(false)
+  }
+
 
   let handle_nofus=()=>{
     // alert('clicked')
@@ -117,15 +135,16 @@ let handle_nofus_going=()=>{
           <img className='form_input_img' src='https://static.abhibus.com/assets/img/date.png'/>
           
           
-          <input  required type='date' placeholder='Date of journey' className='form_input' />
+          <input  required  onFocus={handleFocusImg} onBlur={handleBlurImg} type={onfocsImg ? 'date':'text'} placeholder='Date of journey' className='form_input' />
          
          </div>
 
          <div className='form_inside'>
           <img className='form_input_img' src='https://static.abhibus.com/assets/img/date.png'/>
           
+          <input  required  onFocus={handleFocusImg_2} onBlur={handleBlurImg_2} type={onfocsImg_2 ? 'date':'text'} placeholder='Date of Return (Optional)' className='form_input' />
           
-          <input  type='date' placeholder='Date of Return (Optional)' className='form_input' />
+          {/* <input  type='date' placeholder='Date of Return (Optional)' className='form_input' /> */}
          
          </div>
 

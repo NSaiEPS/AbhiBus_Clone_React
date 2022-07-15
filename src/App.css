@@ -47,8 +47,8 @@
 
 input::placeholder{
   font-size: 14px;
-  color: red;
-  top: 0px;
+  /* color: red; */
+  top: 2.5px;
   position: relative;
 }
 
