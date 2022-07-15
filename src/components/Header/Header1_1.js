@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import './Header1.css'
+import './Header1_1.css'
 
-function Header1() {
+function Header1_1() {
 
   let [display,setDisplay]=useState(false)
-  // let dis;
+  let dis;
 
   let handlebar=()=>{
     setDisplay(!display)
@@ -13,11 +13,11 @@ function Header1() {
 
   console.log(display)
 
-  // if (window.innerWidth>1000){
-  //   dis=true;
-  //   // alert('width more than 10000')
-  //   // break;
-  // }
+  if (window.innerWidth>1000){
+    dis=true;
+    // alert('width more than 10000')
+    // break;
+  }
 
   // if (dis){}
 
@@ -48,9 +48,9 @@ function Header1() {
 //   alert('sceolled')
 // }
 
-// if (window.onclick){
-//   alert('he clicked!')
-// }
+if (window.onclick){
+  alert('he clicked!')
+}
 
 return (
     <div className={display?'header1_dis' : 'header1 '}>
@@ -87,4 +87,4 @@ return (
   )
 }
 
-export default Header1
+export default Header1_1

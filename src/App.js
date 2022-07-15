@@ -4,7 +4,8 @@ import Header1 from './components/Header/Header1';
 // import Header2 from './components/Header/Header2';
 import Body from './components/section/Body';
 import '../src/components/Header/Header1.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import Header1_1 from './components/Header/Header1_1';
 
 function App() {
 
@@ -33,33 +34,73 @@ function App() {
   //  }
   //  console.log(va)
 
-  let [scroll, setscrool]=useState(false)
 
-  let val=160;
-  let srcollv=false;
+//   let val=160;
+//   let srcollv=false;
 
-if(window.scrollY >=160 && window.screenY<163){
-  setscrool(true)
+// if(window.scrollY >=160 && window.screenY<163){
+//   setscrool(true)
 
-  srcollv=true;
-  // alert('scroll!')x
+//   // srcollv=true;
+//   // alert('scroll!')x
+// }
+
+// if(srcollv) {
+
+//   setscrool(true)
+
+// }
+
+
+// console.log(scroll)
+// console.log(scroll)
+
+
+// const [offset, setOffset] = useState(0);
+
+//     useEffect(() => {
+//         const onScroll = () => setOffset(window.pageYOffset);
+//         window.removeEventListener('scroll', onScroll);
+//         window.addEventListener('scroll', onScroll, { passive: false });
+//         return () => window.removeEventListener('scroll', onScroll);
+//     }, []);
+
+//     console.log(offset); 
+
+//     if(offset===470){ setscrool(true)}
+
+
+// let [scrl,setscrl]=useState(window.scrollY)
+let [scroll, setscrool]=useState(false)
+
+useEffect(()=>{
+
+
+  window.addEventListener('scroll',scrling)
+})
+
+function scrling(slv){
+  
+
+  if(window.scrollY>500){
+    setscrool(true)
+  }
+
+  
+
+
 }
 
-if(srcollv) {
-
-  setscrool(true)
-
-}
 
 
-console.log(scroll)
-console.log(scroll)
+
+
 
   return (
     <div className="app">
       
       
-      {scroll ? <Header1/>:null}
+      {scroll ? <Header1_1/>:null}
       {/* <Header1/> */}
      <Header/>
      <Body/>
@@ -69,3 +110,7 @@ console.log(scroll)
 }
 
 export default App;
+
+
+
+

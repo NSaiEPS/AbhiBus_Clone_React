@@ -10,7 +10,7 @@
     font-size: 14px;
     height: 54.5px;
     /* min-height: fit-content; */
-    /* position: sticky; */
+    position: sticky;
     top: 0px;
 
 }
@@ -144,7 +144,7 @@ height: fit-content !important;
             font-size: 14px;
             /* height: 54.5px; */
             min-height: fit-content;
-            /* position: sticky; */
+            position: sticky;
             top: 0px;
         
         
@@ -195,7 +195,7 @@ height: fit-content !important;
     color: #212529;
     font-size: 14px;
     
-    /* position: sticky; */
+    position: sticky;
     top: 0px;
     height: 150px;
 }
