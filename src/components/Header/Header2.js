@@ -156,7 +156,8 @@ let handle_nofus_going=()=>{
           <input type='date' placeholder='Date of journey' />
           <input type='date' placeholder='Date of Return (Optional)'/>
          */}
-          <button className='form_btn'>Search</button> 
+          <button className='form_btn'      style={{minWidth:'20px'}}  >
+            Search</button> 
         </form>
       </div>
 
