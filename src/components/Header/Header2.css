@@ -107,7 +107,7 @@
 .form_input_img {
     position: relative;
     top: 17.5px;
-    left: 5px;
+    left: 9px;
     /* right: 260px; */
 }
 
@@ -272,7 +272,7 @@
 .form_inside_text{
     position: relative;
     bottom:  33px;
-    left: 35px;
+    left: 40px;
     /* font-size: 13px; */
     pointer-events: none;
 }
