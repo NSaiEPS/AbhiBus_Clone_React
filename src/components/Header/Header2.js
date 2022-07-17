@@ -108,7 +108,8 @@ let handle_nofus_going=()=>{
           <div className='form_inside'>
           <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-1.png'/>
           
-          <input onFocus={handlefocus} onBlur={handle_nofus} required type='text'  className='form_input' />
+          <input onFocus={handlefocus} onBlur={handle_nofus}    
+            placeholder={focus.inpL? '':'Leaving from'}                required type='text'  className='form_input' />
            {/* {focus ? 
            <span className='form_inside_text_focus'>Leaving from</span> 
            :
@@ -124,7 +125,8 @@ let handle_nofus_going=()=>{
           <img className='form_input_img' src='https://static.abhibus.com/assets/img/pointer-2.png'/>
           
           
-          <input onClick={handlefocus_going} onBlur={handle_nofus_going} type='text'  className='form_input' />
+          <input onClick={handlefocus_going} onBlur={handle_nofus_going} type='text'
+             placeholder={focus.inpG? '':'Going to' }             className='form_input' />
           {/* <span className='form_inside_text_focudg'> Going to</span> */}
           {/* <span className={ focus ? `form_inside_text_focus`: `form_inside_text`}>Going to</span> */}
           <span className={ focus.inpG ? 'form_inside_text_focudg':'form_inside_text  form_inside_text2'}> Going to</span>

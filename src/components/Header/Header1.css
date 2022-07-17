@@ -4,7 +4,7 @@
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
     padding-left: 135px;
-    padding-right: 140px;
+    padding-right: 8.5%;
     font-family: 'Open Sans', sans-serif;
     color: #212529;
     font-size: 14px;
@@ -242,3 +242,5 @@ margin-top: 5px;
 height: 30px;
 min-width: fit-content;
 }
+
+

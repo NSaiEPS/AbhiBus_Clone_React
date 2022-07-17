@@ -66,6 +66,15 @@
 
 }
 
+@media (max-width:485px) and (min-width:368px) {
+    .header2_two {
+        /* margin-left: 165px; */
+        /* background-color: red; */
+
+        width: 70%;
+    } 
+}
+
 .header2_third {
     margin-right: auto;
     margin-left: auto;
@@ -282,6 +291,7 @@
     left: 40px;
     /* font-size: 13px; */
     pointer-events: none;
+    display: none;
 }
 
 .form_inside_text_focus{
@@ -443,3 +453,11 @@ input:focus{
         /* left: 10px;
         max-width: fit-content !important;
     } */
+
+
+    @media (max-width:470px){
+        .form_inside {
+            height: 55px !important;
+
+        }
+    }
