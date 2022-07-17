@@ -13,11 +13,11 @@ function Header1() {
 
   console.log(display)
 
-  if (window.innerWidth>1000){
-    dis=true;
-    // alert('width more than 10000')
-    // break;
-  }
+  // if (window.innerWidth>1000){
+  //   dis=true;
+  //   // alert('width more than 10000')
+  //   // break;
+  // }
 
   // if (dis){}
 

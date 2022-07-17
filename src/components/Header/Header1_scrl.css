@@ -134,7 +134,7 @@ height: fit-content ;
     }
     .header1_dis{
 
-        height: 200px !important;
+        height: 250px !important;
         
             background-color: #efefef;
             display: flex;
@@ -265,4 +265,17 @@ height: fit-content ;
 
     margin-top: -0.9px;
 
+}
+
+.header_bar_scl button{
+    /* background-color: red; */
+    height: fit-content;
+    margin-top: 5px;
+}
+
+.header_bar_scl button:nth-child(1){
+    background-color: red;
+    /* margin-top: 8px; */
+    height: fit-content;
+    border-radius: 10px;
 }

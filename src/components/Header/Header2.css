@@ -111,6 +111,13 @@
     /* right: 260px; */
 }
 
+.form_input_img {
+    position: relative;
+    top: 17.5px;
+    left: 9px;
+    /* right: 260px; */
+}
+
 .form_inside {
     border: 1px solid lightgray;
     box-sizing: border-box;

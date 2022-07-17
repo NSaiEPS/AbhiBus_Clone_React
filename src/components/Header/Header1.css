@@ -235,3 +235,10 @@ height: fit-content !important;
   height: 180px;
 }
 }
+
+.header_bar button{
+/* background-color: red; */
+margin-top: 5px;
+height: 30px;
+min-width: fit-content;
+}
