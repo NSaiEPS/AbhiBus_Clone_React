@@ -1,11 +1,22 @@
 import React, { useState } from 'react'
+import { IoMdArrowDropdown } from 'react-icons/io';
+import { useDispatch } from 'react-redux';
+import { logining } from '../../ReduxToolkit/Slices';
 import './Header1_scrl.css'
 
 function Header1_scrl() {
 
   let [display,setDisplay]=useState(false)
   let dis;
+  let dispatch=useDispatch()
 
+  let handleOpenlogin=()=>{
+    dispatch(
+      logining()
+  
+    )
+  }
+  
   let handlebar=()=>{
     setDisplay(!display)
 
@@ -66,8 +77,12 @@ return (
             <button>Rentals</button>
             <button>Offers</button>
             <button>Get Free Rides</button>
-            <button>My Bookings</button>
-            <button>Login / Register</button>
+            <button>My Bookings
+           <small className='dropdown_small'> <IoMdArrowDropdown/></small> </button>
+
+            
+            <button onClick={handleOpenlogin}>Login / Register
+           <small className='dropdown_small'> <IoMdArrowDropdown/></small> </button>
         </div>
 
 
@@ -78,8 +93,13 @@ return (
             <button>Rentals</button>
             <button>Offers</button>
             <button>Get Free Rides</button>
-            <button>My Bookings</button>
-            <button>Login / Register</button>
+            <button>My Bookings
+           <small className='dropdown_small'> <IoMdArrowDropdown/></small> </button>
+
+          
+            <button onClick={handleOpenlogin}>Login / Register
+           <small className='dropdown_small'> <IoMdArrowDropdown/></small> </button>
+
         </div> : null}
 
 

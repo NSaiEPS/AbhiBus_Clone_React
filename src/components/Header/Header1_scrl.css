@@ -285,3 +285,7 @@ height: fit-content ;
 .header_bar_scl button:nth-child(1){
     color: white;
 } */
+
+.dropdown_small {
+    color: red;
+}
