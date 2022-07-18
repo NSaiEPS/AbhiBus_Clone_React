@@ -3,7 +3,12 @@
     top: 85%;
     left: 92%;
     /* height: fit-content; */
+    /* background-color: red; */
 }
+
+/* .position {
+    position: relative;
+} */
 
 .ChatBox img {
     width: 100px;
@@ -133,3 +138,108 @@
     border: 0.5px solid salmon;
 }
 /* :placeholder-shown */
+
+
+.ChatSupport {
+    background-color: white;
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 350px;
+    position:fixed;
+    /* top: -510px; */
+    /* bottom: 550px; */
+    /* left: 70%; */
+    /* top: 150px; */
+    bottom: 0%;
+    right: 1%;
+    /* scroll-margin-right:; */
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0,0.5);
+
+}
+
+.ChatSupport_top {
+    background-color: #C60001;
+    color: white;
+    /* margin-top: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* padding-left: 5px; */
+    /* height: 35px; */
+    /* padding-top: ; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.ChatSupport_top h1 {
+    /* height: 20px; */
+    font-size: 20px;
+    /* height: 320px; */
+
+}
+
+.ChatSupport_top h1:nth-child(2) {
+    /* color: blue; */
+    padding-top: 4px;
+}
+
+
+.ChatSupport_top h1:nth-child(2):hover {
+
+    cursor: pointer;
+}
+.ChatSupport_bottom {
+    background-color: white;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 35px;
+    overflow-y: scroll;
+}
+.ChatSupport_bottom div{
+    background-color: #f4f4f4;
+    margin-top: 15px;
+    width: 75%;
+    font-size: 14px;
+    color: #333333;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.Chat_date {
+    position: fixed;
+    /* top: ; */
+    bottom: 66%;
+    right: 150px;
+}
+
+.Chat_inside_img {
+    position: fixed;
+    bottom: 62%;
+    right: 340px;
+    width: 10px;
+    height: 10px;
+
+}
+
+.Chat_inside_img img {
+    width: 30px;
+}
+
+.chat_box_quires {
+    color: black;
+    background-color: #C60001;
+    border-top: 1px solid lightgray;
+    background-color: white !important;
+}
+
+.chat_box_quires input{
+    /* outline: none; */
+    border: none;
+}

@@ -43,6 +43,9 @@
   margin-top: 15px;
   margin-left: 25px;
   margin-bottom: 25px;
+  position: relative;
+  top: 5px;
+  padding: 10PX;
 }
 
 input::placeholder{
@@ -73,4 +76,10 @@ input:focus + input::placeholder{
 input:focus {
   border: none;
   outline: none !important;
+}
+
+.icon {
+ position: relative;
+ top: 7px;
+  right: 170px;
 }

@@ -6,6 +6,7 @@ import Body from './components/section/Body';
 import '../src/components/Header/Header1.css'
 import { useEffect, useState } from 'react';
 import Header1_scrl from './components/Header/Header1_scrl';
+import {FaLocationArrow} from 'react-icons/fa'
 
 function App() {
 
@@ -93,8 +94,8 @@ return (
       {/* <Header1/> */}
      <Header/>
      <Body/>
-     {/* <input placeholder='Write some thing' className='placeholder_check'/> */}
-
+     {/* <input placeholder='Write some thing' className='placeholder_check'/>
+    < FaLocationArrow className='icon'/> */}
     </div>
   );
 }
